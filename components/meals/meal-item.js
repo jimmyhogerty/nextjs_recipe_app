@@ -4,9 +4,6 @@ import Image from "next/image";
 import classes from "./meal-item.module.css";
 
 export default function MealItem({ title, slug, image, summary, creator }) {
-  console.log(
-    `https://jimmy-nextjs-demo-users-image.s3.amazonaws.com/${image}`
-  );
   return (
     <article className={classes.meal}>
       <header>
